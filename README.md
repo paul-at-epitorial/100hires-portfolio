@@ -71,7 +71,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 ```
 
-	- Purpose: It initializes the local directory as a Git repository.
+- Purpose: It initializes the local directory as a Git repository.
 
 ---
 
@@ -80,7 +80,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 ```
 
-	- Purpose: Stages your new README file.
+- Purpose: Stages your new README file.
 
 ---
 
@@ -89,7 +89,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 ```
 
-	- Purpose: Saves the file with a note attached indicating the changes you’ve made.
+- Purpose: Saves the file with a note attached indicating the changes you’ve made.
 
 ---
 
@@ -98,7 +98,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 ```
 
-	- Purpose: Sets the main branch name.
+- Purpose: Sets the main branch name.
 
 14. Link your local folder to the GitHub repository you created earlier. Replace the URL below with your actual repository URL and run this command:
 
@@ -111,7 +111,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 	git push -u origin main
 ```
 
-	Note: This may be your first time using Git on this computer, so it may prompt you to log in to GitHub via a browser window to authenticate the push. Once the terminal says the push was successful, refresh your GitHub page to verify the README.md file is live.
+- Note: This may be your first time using Git on this computer, so it may prompt you to log in to GitHub via a browser window to authenticate the push. Once the terminal says the push was successful, refresh your GitHub page to verify the README.md file is live.
 
 16. Well done! You’re all set.
 
