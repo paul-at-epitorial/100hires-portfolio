@@ -61,7 +61,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 7. On your desktop screen, create a new empty folder and name it *100hires-portfolio*.
 8. Head back to Cursor.
 9. Click `File` → `Open Folder...` and select the empty folder you just created.
-10. In Cursor’s left sidebar, hover your cursor on it and then click the New File icon that appears. Name it README.md and press Enter.
+10. In Cursor’s left sidebar, hover your cursor over it and then click the New File icon that appears. Name it *README.md* and press `Enter`.
 11. Paste everything you just wrote for these instructions into the file (the blank space in the middle) and save it (shortcut: `Ctrl` + `S` or `Cmd` + `S`).
 12. Open Cursor’s built-in terminal by pressing `Ctrl` + `~` (press `Control` and the tilde keys) at the same time or selecting `View` → `Terminal` from the top menu.
 13. In the terminal, click inside it and run the following git commands one by one. Press **Enter** after each. **Note:** Ignore and close that small pop-up on the lower left telling you something about keybindings.
