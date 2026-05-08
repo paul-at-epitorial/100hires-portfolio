@@ -71,7 +71,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 ```
 
-	Purpose: It initializes the local directory as a Git repository.
+	- Purpose: It initializes the local directory as a Git repository.
 
 ---
 
@@ -80,7 +80,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 ```
 
-	Purpose: Stages your new README file.
+	- Purpose: Stages your new README file.
 
 ---
 
@@ -89,7 +89,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 ```
 
-	Purpose: Saves the file with a note attached indicating the changes you’ve made.
+	- Purpose: Saves the file with a note attached indicating the changes you’ve made.
 
 ---
 
@@ -98,15 +98,18 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 ```
 
-	Purpose: Sets the main branch name.
+	- Purpose: Sets the main branch name.
 
 14. Link your local folder to the GitHub repository you created earlier. Replace the URL below with your actual repository URL and run this command:
 
+```
 	git remote add origin https://github.com/YOUR_USERNAME_GOES_HERE/100hires-portfolio.git
+```
 
 15. Then push the code to GitHub:
-
+```
 	git push -u origin main
+```
 
 	Note: This may be your first time using Git on this computer, so it may prompt you to log in to GitHub via a browser window to authenticate the push. Once the terminal says the push was successful, refresh your GitHub page to verify the README.md file is live.
 
@@ -122,11 +125,13 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 – Want to make changes to your README file and save it to GitHub? To do that, check first that your Cursor’s terminal is open. Just remember to run these three commands next time one by one, pressing Enter after each:
 
+```
 	git add README.md
 	
 	git commit -m "INSERT_A_SHORT_NOTE_THAT_DESCRIBES_YOUR_CHANGES"
 	
 	git push
+```
 
 Since you already linked the repository and pushed your initial setup, you do not need the longer setup commands from earlier. The basic git push will recognize the link and upload the newest version of your file.
 
