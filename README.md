@@ -13,7 +13,7 @@
 1. Download and install Cursor. Go to this website to begin: https://cursor.com/
 2. Open the downloaded file and run it.
 3. Accept the agreement and then just click `Next` a few times after that.
-4. On one screen, you may be shown some options like creating a desktop icon, adding `Open with Cursor` action to Windows Explorer file context menu, so on. Check that applies. What those options mean:
+4. On one screen, you may be shown some options like creating a desktop icon, adding “Open with Cursor” action to Windows Explorer file context menu, so on. Check that applies, but just the first 3 options will suffice. The other 2 are for power users. What those options mean:
 
 	a) `Create a desktop icon` – Adds a Cursor shortcut on the desktop so you can open it quickly
 
@@ -43,7 +43,8 @@
 5. Now, click that down arrowhead symbol on the left sidebar. Choose `Claude Code`.
 6. There will be a screen showing you how you want to log in. Click `Claude.ai Subscription`.
 7. Some dialog will pop-up asking if you want Cursor to open the external website. Choose first `Configure Trusted Domains` so that you won’t be asked this again later. Select the second option (`Trust claude.com and all its subdomains`). Then, it will open a tab in your browser. Go ahead and log in from there.
-Need to subscribe first before using? Check out the solution at the bottom.
+
+	Need to subscribe first before using? Check out the solution at the bottom.
 
 ### B3. Configuring Codex Access
 
@@ -55,16 +56,18 @@ Need to subscribe first before using? Check out the solution at the bottom.
 1. Log in to GitHub: https://github.com/
 2. In the top-right corner, click the `+` icon and select `New repository`.
 3. Name the repository, for example, *100hires-portfolio*.
-4. Keep it set to public. Leave the repository completely empty. **Important:** Do not toggle `Add a README file` since we’ll be creating our own README.
+4. Keep it set to public. Leave the repository completely empty.
+	**Important:** Do not toggle `Add a README file` since we’ll be creating our own README.
 5. Click `Create repository`.
-6. Keep the next page open -- you will need the repository URL (it looks like https://github.com/YOUR_USERNAME_GOES_HERE/100hires-portfolio.git).
+6. Keep this page open -- you will need the repository URL (it looks like https://github.com/YOUR_USERNAME_GOES_HERE/100hires-portfolio.git).
 7. On your desktop screen, create a new empty folder and name it *100hires-portfolio*.
 8. Head back to Cursor.
 9. Click `File` → `Open Folder...` and select the empty folder you just created.
 10. In Cursor’s left sidebar, hover your cursor over it and then click the New File icon that appears. Name it *README.md* and press `Enter`.
 11. Paste everything you just wrote for these instructions into the file (the blank space in the middle) and save it (shortcut: `Ctrl` + `S` or `Cmd` + `S`).
 12. Open Cursor’s built-in terminal by pressing `Ctrl` + `~` (press `Control` and the tilde keys) at the same time or selecting `View` → `Terminal` from the top menu.
-13. In the terminal, click inside it and run the following git commands one by one. Press **Enter** after each. **Note:** Ignore and close that small pop-up on the lower left telling you something about keybindings.
+13. In the terminal, click inside it and run the following git commands one by one. Press **Enter** after each.
+	**Note:** Ignore and close that small pop-up on the lower left telling you something about keybindings.
 
 ```
 	git init
