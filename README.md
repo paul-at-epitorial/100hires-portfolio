@@ -1,13 +1,14 @@
-# A. TOOLS TO INSTALL
+# Environment Setup – 100Hires Portfolio
 
-Cursor
-Claude Code
-Codex
+## A. TOOLS TO INSTALL
 
+- Cursor
+- Claude Code
+- Codex
 
-# B. STEPS TO TAKE
+## B. STEPS TO TAKE
 
-## B1. Setting Up Cursor
+### B1. Setting Up Cursor
 
 1. Download and install Cursor. Go to this website to begin: https://cursor.com/
 2. Open the downloaded file and run it.
@@ -33,7 +34,7 @@ Codex
 11. Cursor stuck at “Loading...”? Try to close out of it and run it again. Do the same as the previous step.
 12. Tick the box that’s shown to proceed.
 
-## B2. Installing Claude Code
+### B2. Installing Claude Code
 
 1. From the menu up top, click “View” and select “Extensions.”
 2. A list of extensions will appear on the left sidebar. Click that rectangular box and search for Claude Code for VS Code.
@@ -44,12 +45,12 @@ Codex
 10. Some dialog will pop-up asking if you want Cursor to open the external website. Choose first “Configure Trusted Domains” so that you won’t be asked this again later. Select the second option (“Trust claude.com and all its subdomains”). Then, it will open a tab in your browser. Go ahead and log in from there.
 Need to subscribe first before using? Check out the solution at the bottom.
 
-## B3. Configuring Codex Access
+### B3. Configuring Codex Access
 
 1. Next up, installing Codex. Please repeat the same steps we did for Claude Code. Just see to it that “Sign in with ChatGPT” is selected when you log in.
 2. You’re all set for Cursor. But don’t close it yet! We’re going to need it to set up the GitHub repository.
 
-## B4. Finalizing via GitHub
+### B4. Finalizing via GitHub
 
 1. Log in to GitHub: https://github.com/
 2. In the top-right corner, click the + icon and select “New repository.”
@@ -66,30 +67,28 @@ Need to subscribe first before using? Check out the solution at the bottom.
 13. In the terminal, click inside it and run the following commands one by one. Press Enter after each. Note: Ignore and close that small pop-up on the lower left telling you something about keybindings.
 
 ---
-
 	git init
+---
 
 	Purpose: It initializes the local directory as a Git repository.
 
 ---
-
 	git add README.md
+---
 
 	Purpose: Stages your new README file.
 
 ---
-
 	git commit -m "first commit"
-
+---
+	
 	Purpose: Saves the file with a note attached indicating the changes you’ve made.
 
 ---
-
 	git branch -M main
-
-	Purpose: Sets the main branch name.
-
 ---
+	
+	Purpose: Sets the main branch name.
 
 14. Link your local folder to the GitHub repository you created earlier. Replace the URL below with your actual repository URL and run this command:
 
@@ -103,8 +102,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 16. Well done! You’re all set.
 
-
-# C. ISSUES RAN INTO + SOLUTION
+## C. ISSUES RAN INTO + SOLUTION
 
 – Cursor stuck at the "Loading..." screen. A simple close-and-run-again method will fix it.
 
