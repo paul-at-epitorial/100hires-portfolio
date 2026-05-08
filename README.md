@@ -116,7 +116,7 @@ Need to subscribe first before using? Check out the solution at the bottom.
 
 	git add README.md
 	
-	git commit -m "Fix list formatting in setup steps"
+	git commit -m "INSERT_A_SHORT_NOTE_THAT_DESCRIBES_YOUR_CHANGES"
 	
 	git push
 
