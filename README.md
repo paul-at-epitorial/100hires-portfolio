@@ -1,13 +1,13 @@
-A. TOOLS TO INSTALL
+# A. TOOLS TO INSTALL
 
 Cursor
 Claude Code
 Codex
 
 
-B. STEPS TO TAKE
+# B. STEPS TO TAKE
 
-B1. Setting Up Cursor
+## B1. Setting Up Cursor
 
 1. Download and install Cursor. Go to this website to begin: https://cursor.com/
 2. Open the downloaded file and run it.
@@ -33,7 +33,7 @@ B1. Setting Up Cursor
 11. Cursor stuck at “Loading...”? Try to close out of it and run it again. Do the same as the previous step.
 12. Tick the box that’s shown to proceed.
 
-B2. Installing Claude Code
+## B2. Installing Claude Code
 
 1. From the menu up top, click “View” and select “Extensions.”
 2. A list of extensions will appear on the left sidebar. Click that rectangular box and search for Claude Code for VS Code.
@@ -44,12 +44,12 @@ B2. Installing Claude Code
 10. Some dialog will pop-up asking if you want Cursor to open the external website. Choose first “Configure Trusted Domains” so that you won’t be asked this again later. Select the second option (“Trust claude.com and all its subdomains”). Then, it will open a tab in your browser. Go ahead and log in from there.
 Need to subscribe first before using? Check out the solution at the bottom.
 
-B3. Configuring Codex Access
+## B3. Configuring Codex Access
 
 1. Next up, installing Codex. Please repeat the same steps we did for Claude Code. Just see to it that “Sign in with ChatGPT” is selected when you log in.
 2. You’re all set for Cursor. But don’t close it yet! We’re going to need it to set up the GitHub repository.
 
-B4. Finalizing via GitHub
+## B4. Finalizing via GitHub
 
 1. Log in to GitHub: https://github.com/
 2. In the top-right corner, click the + icon and select “New repository.”
@@ -63,7 +63,7 @@ B4. Finalizing via GitHub
 10. In Cursor’s left sidebar, hover your cursor on it and then click the New File icon that appears. Name it README.md and press Enter.
 11. Paste everything you just wrote for these instructions into the file (the blank space in the middle) and save it (shorcut: Ctrl + S or Cmd + S).
 12. Open Cursor’s built-in terminal by pressing Ctrl + ~ (press Control and the tilde keys) at the same time or selecting “View” → “Terminal” from the top menu.
-13. In the terminal, run the following commands one by one. Press Enter after each. Note: Ignore and close that small pop-up on the lower left telling you something about keybindings.
+13. In the terminal, click inside it and run the following commands one by one. Press Enter after each. Note: Ignore and close that small pop-up on the lower left telling you something about keybindings.
 
 ---
 
@@ -99,12 +99,12 @@ B4. Finalizing via GitHub
 
 	git push -u origin main
 
-Note: This may be your first time using Git on this computer, so it may prompt you to log in to GitHub via a browser window to authenticate the push. Once the terminal says the push was successful, refresh your GitHub page to verify the README.md file is live.
+	Note: This may be your first time using Git on this computer, so it may prompt you to log in to GitHub via a browser window to authenticate the push. Once the terminal says the push was successful, refresh your GitHub page to verify the README.md file is live.
 
 16. Well done! You’re all set.
 
 
-C. ISSUES RAN INTO + SOLUTION
+# C. ISSUES RAN INTO + SOLUTION
 
 – Cursor stuck at the "Loading..." screen. A simple close-and-run-again method will fix it.
 
